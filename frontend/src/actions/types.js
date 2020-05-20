@@ -1,0 +1,4 @@
+export const GET_ALL_BRANDS = 'GET_ALL_BRANDS';
+export const BRANDS_ERROR = 'BRANDS_ERROR';
+export const BRANDS_BY_NAME = 'BRANDS_BY_NAME';
+export const SET_FILTER_VALUES = 'SET_FILTER_VALUES';

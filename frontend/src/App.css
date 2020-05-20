@@ -1,0 +1,47 @@
+.nav{
+  background-color: rgb(227, 234, 235);
+  padding:5px;
+  border:1px dashed black;
+  display: flex;
+  justify-content: space-between;
+}
+
+.timelineLabel {
+text-align: right;
+}
+
+.brandLabel{
+position: absolute;
+}
+
+.brandTable td,.brandTable th{
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+.brandTable{
+  margin:0 auto;
+}
+
+.brandDiv {
+  margin-top: 5%;
+}
+
+.ival{
+  position: relative;
+  right: 20px;
+}
+
+.divAdver{
+  border:1px solid white;
+  box-shadow: 1px 1px 5px 1px green;
+  width:12.5%;
+  position: relative;
+  left:75px;
+}
+
+.divAdver a {
+  text-decoration: none;
+  color: black;
+}
