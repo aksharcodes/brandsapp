@@ -6,7 +6,8 @@
   "scripts": {
     "react": "npm start --prefix frontend",
     "server":"npm start --prefix server",
-    "start":"concurrently \"npm run react\" \"npm run server\""
+    "start":"concurrently \"npm run react\" \"npm run server\"",
+    "heroku-postbuild": "cd frontend && npm install && npm run build"
   },
   "repository": {
     "type": "git",
