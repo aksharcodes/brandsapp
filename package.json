@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "react": "npm start --prefix frontend",
+    "server":"npm start --prefix server",
+    "start":"concurrently \"npm run react\" \"npm run server\""
   },
   "repository": {
     "type": "git",
@@ -16,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/aksharcodes/brandsapp/issues"
   },
-  "homepage": "https://github.com/aksharcodes/brandsapp#readme"
+  "homepage": "https://github.com/aksharcodes/brandsapp#readme",
+  "dependencies": {
+    "concurrently": "^5.2.0"
+  }
 }
