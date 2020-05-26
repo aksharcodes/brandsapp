@@ -1,7 +1,11 @@
 const express = require('express');
 const config = require('config');
+const path = require('path');
 
 const app = express();
+
+app.use(express.static(__dirname))
+app.use(express.static(path.join(__dirname,'build')))
 
 const port = process.env.PORT || config.get('PORT');
 

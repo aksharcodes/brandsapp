@@ -6,21 +6,13 @@
   "scripts": {
     "react": "npm start --prefix frontend",
     "server":"npm start --prefix server",
-    "start":"concurrently \"npm run react\" \"npm run server\"",
-    "heroku-postbuild": "cd frontend && npm install && npm run build"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/aksharcodes/brandsapp.git"
+    "start":"concurrently \"npm run react\" \"npm run server\""
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/aksharcodes/brandsapp/issues"
-  },
-  "homepage": "https://github.com/aksharcodes/brandsapp#readme",
   "dependencies": {
     "concurrently": "^5.2.0"
   }
 }
+
